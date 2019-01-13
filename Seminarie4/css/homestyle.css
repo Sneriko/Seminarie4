@@ -1,0 +1,61 @@
+body {
+    background-image: url("/Images/background.jpg");
+    background-size: auto;
+}
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: rgba(205, 136, 175,0.7);
+}
+
+a{
+    color: black;
+}
+
+button {
+    background-color: rgb(151, 117, 170);
+}
+
+.header h1 {
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+}
+
+.about p {
+    color: white;
+    margin: 5% 20%;
+    text-align: center;
+}
+
+.form-popup {
+    display: none;
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+.form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}

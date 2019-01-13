@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<recipe>
+    <id>1</id>
+    <title>Pancakes</title>
+    <preptime>5 m</preptime>
+    <cooktime>15 m</cooktime>
+    <totaltime>20 m</totaltime>
+    <ingredient>
+        <li>1 1/2 cups all-purpose flour</li>
+        <li>3 1/2 teaspoons baking powder</li>
+        <li>1 teaspoon salt</li>
+        <li>1 tablespoon white sugar</li>
+        <li>1 1/4 cups milk</li>
+        <li>1 egg</li>
+        <li>3 tablespoons melted butter</li>
+    </ingredient>
+    <recipetext>
+        <li>In a large bowl, sift together the flour, baking powder, salt and sugarw. Make a
+            well in the center and pour in the milk, egg and melted butter, mix until smooth.</li>
+        <li>Heat a lightly oiled frying pan over medium high heat. Pour or scoop the batter
+            onto the griddle, using approximately 1/4 cup for each pancake. Brown on both sided
+            and serve hot</li>
+    </recipetext>
+    <quantity>8</quantity>
+    <imagepath>../Images/pancakes.jpg</imagepath>
+</recipe>

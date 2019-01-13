@@ -1,0 +1,44 @@
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: rgba(205, 136, 175,0.7);
+}
+
+button {
+    background-color: rgb(151, 117, 170);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    margin: 2% 0%;
+}
+
+img {
+    max-width: 50%;
+}
+
+ul {
+    margin: 0px;
+}
+
+a{
+    color: black;
+}
+
+#preps {
+    background-color: bisque;
+    font-size: 20px;
+}
+
+#method {
+    margin-right: 30%;
+}
+
+.com {
+    border: 3px solid black;
+}
