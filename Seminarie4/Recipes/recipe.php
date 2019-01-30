@@ -49,15 +49,19 @@ foreach ($recipe->recipetext->li as $value){
 echo "</ol>
     </div>";
 
+//echo "<div id='commentform'></div>";
+
 if(isset($_SESSION['userid'])) {
+
+    echo "<div id='commentform'></div>";
 
     echo "<form id='storecomment' action='store-entry.php' method='post'>
         <div>
             <label for='entry'>" . $_SESSION['username'] . "</label>
         </div>
         <div>
-            <input type='text' name='comment' size='100'/>
-            <!--<textarea rows = 5 cols = 50 name='comment' placeholder='Write your comment here.'></textarea>-->    
+            <!--<input type='text' name='comment' size='100'/>-->
+            <textarea rows = 5 cols = 50 name='comment' placeholder='Write your comment here.'></textarea>    
         </div>
         <div>
             <input type='submit' value='Send'/>
@@ -71,9 +75,10 @@ if(isset($_SESSION['userid'])) {
     <button type="submit">Comments</button>
 </form>
 
+<div id="comments"></div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="/app.js"></script>
+<script src="/test.js"></script>
 </body>
 </html>

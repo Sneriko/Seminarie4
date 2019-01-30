@@ -2,6 +2,6 @@
 session_start();
 include "dbh.inc.php";
 $var2 = $_SESSION['recipe'];
-$var = $_GET['id'];
-$sql = "DELETE FROM comments WHERE id='$var'";
+$id = $_GET['id'];
+$sql = "DELETE FROM comments WHERE id='$id'";
 $conn->query($sql);
